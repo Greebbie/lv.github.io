@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -13,13 +13,13 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+# news: true # includes a list of news items
+# selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Master's student in Computer Science at Brown University, with a specialization in `deep learning` and `computer vision`.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I hold a B.S. degree in Computer Science from Michigan State University. My studies and research there were centered on health-related problems, biological and biomedical imaging, as well as the broader applications of computer vision, machine learning, and deep learning methods. This solid foundation underpins my current advanced research endeavors. I engage in `game development` and technical innovation research. This work goes beyond a mere interest. Collaboratively working in teams, I leverage my technical expertise to design immersive gaming experiences and to develop intelligent AI solutions, reflecting the practical application of my skills in computer science.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to my academic and professional pursuits, I have a passion for games, esports, food, photography, and cosplay. These interests offer a creative outlet and a welcome diversion, enriching my life with diverse experiences and perspectives.
