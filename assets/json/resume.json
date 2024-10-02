@@ -5,80 +5,96 @@
     "image": "",
     "email": "shangyang_min@brown.edu",
     "phone": "(419) 233-0178",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "1 Point St",
-      "postalCode": "02903",
+      "address": "",
+      "postalCode": "",
       "city": "Providence",
       "countryCode": "US",
       "region": "Rhode Island"
     }
-    
   },
   "work": [
-
-  ],
-  "volunteer": [
-
+    {
+      "name": "Lee Lab",
+      "url": "https://sites.brown.edu/lee/",
+      "position": "Graduate Researcher",
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "summary": "Conducting research on Brain-Computer Interface (BCI) project integrated with VR gaming. Developing and integrating deep learning models with Unreal Engine for real-time BCI data processing and VR interaction."
+    },
+    {
+      "name": "Human Augmentation and Artificial Intelligence Laboratory (HAAIL)",
+      "url": "https://labs.ghassemi.xyz/",
+      "position": "Undergraduate Researcher",
+      "startDate": "2022-05",
+      "endDate": "2023-08",
+      "summary": "Research on Feature Imitating Networks in biomedical image processing."
+    },
+    {
+      "name": "Henry Ford Health System",
+      "position": "Undergraduate Researcher",
+      "startDate": "2022-09",
+      "endDate": "2023-07",
+      "summary": "Contributed to a pilot grant program funded between Henry Ford Health System and MSU. Research on radiomics features with machine learning."
+    },
+    {
+      "name": "Game Development Studio",
+      "position": "Programming Developer",
+      "startDate": "2021-09",
+      "endDate": "2023-05",
+      "summary": "Developed indie games, focus on technical side of games. Mentored by professionals from Iron Galaxy Studio."
+    }
   ],
   "education": [
     {
       "institution": "Brown University",
       "url": "https://www.brown.edu/",
       "area": "Computer Science",
-      "studyType": "ScM",
-      "startDate": "2023",
-      "endDate": "2025",
+      "studyType": "Master of Science (Sc.M.)",
+      "startDate": "2023-09",
+      "endDate": "2025-05",
       "score": "",
       "courses": [
-        "Artificial Intelligence", "Deep Learning"
+        "Artificial Intelligence",
+        "Machine Learning"
       ]
     },
     {
       "institution": "Michigan State University",
       "url": "https://msu.edu/",
-      "area": "Computer Science",
-      "studyType": "B.S.",
-      "startDate": "2019",
-      "endDate": "2023",
-      "score": "",
+      "area": "Computer Science Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-08",
+      "endDate": "2023-05",
+      "score": "Graduated with High Honor",
       "courses": [
-        "Software Engineering", "Biometrics", "Computer System and Architecture", "Graphics",
         "Game Design and Development"
       ]
     }
   ],
-  "awards": [
-
-  ],
-  "certificates": [
-
-  ],
-  "publications": [
-
-  ],
   "skills": [
-
-  ],
-  "languages": [
     {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming Languages",
+      "keywords": ["C", "C++", "C#", "Java", "SQL", "Python"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Game Engines",
+      "keywords": ["Unity 3D", "Unreal Engine"]
+    },
+    {
+      "name": "Research Areas",
+      "keywords": ["Deep Learning", "Biomedical Engineering"]
     }
   ],
-  "interests": [
+  "languages": [
 
   ],
-  "references": [
-
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
-
+    {
+      "name": "Research and Development Projects",
+      "description": "A list of research and development projects available on personal webpage."
+    }
   ]
 }
