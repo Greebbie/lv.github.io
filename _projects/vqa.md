@@ -13,18 +13,16 @@ This research project introduces a groundbreaking approach to Video Question Ans
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div id="pdf-container" data-pdf-src="{{ page.pdf_path }}">
+        <div id="pdf-container" data-pdf-src="{{ pdf_path }}">
             <iframe id="pdf-viewer"></iframe>
         </div>
     </div>
 </div>
 
 <div class="caption">
-    View the full project documentation above or <a href="{{ page.pdf_path }}" target="_blank">download the PDF</a>. 
+    View the full project documentation above or <a href="{{ pdf_path }}" target="_blank">download the PDF</a>. 
 </div>
 
-<script src="{{ '/assets/js/pdfresize.js'  }}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css'  }}">
 
 <!-- ## External Link -->
 
