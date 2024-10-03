@@ -1,1 +1,1 @@
-#pdf-viewer{border:1px solid #ddd;border-radius:4px;padding:5px;resize:vertical;overflow:auto;min-height:500px}#pdf-viewer:hover{border-bottom-color:#999}#pdf-viewer:active{border-bottom-color:#555}
+#pdf-viewer{width:100%;border:1px solid #ddd;border-radius:4px 4px 0 0}.resize-handle{width:100%;height:10px;background-color:#f0f0f0;border:1px solid #ddd;border-top:0;border-radius:0 0 4px 4px;cursor:ns-resize}.resize-handle:hover{background-color:#e0e0e0}
