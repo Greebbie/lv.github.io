@@ -3,20 +3,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     var container = document.getElementById('pdf-container');
     var iframe = document.getElementById('pdf-viewer');
-    var resizer = document.getElementById('pdf-resizer');
+    var resizer = document.createElement('div');
+    resizer.id = 'pdf-resizer';
+    resizer.className = 'resize-handle';
     
     if (container && iframe) {
         var pdfSrc = container.getAttribute('data-pdf-src');
         if (pdfSrc) {
             iframe.src = pdfSrc;
         }
-    }
-
-    if (!resizer && iframe) {
-        resizer = document.createElement('div');
-        resizer.id = 'pdf-resizer';
-        resizer.className = 'resize-handle';
-        iframe.parentNode.insertBefore(resizer, iframe.nextSibling);
+        container.appendChild(resizer);
     }
 
     if (resizer && container) {

@@ -19,9 +19,12 @@ This research project introduces a groundbreaking approach to Video Question Ans
     </div>
 </div>
 
-<!-- <div class="caption">
-    View the full project documentation above or <a href="#" onclick="window.open(document.getElementById('pdf-container').getAttribute('data-pdf-src'), '_blank'); return false;">download the PDF</a>. 
-</div> -->
+<div class="caption">
+    View the full project documentation above or <a href="{{ page.pdf_path | relative_url }}" target="_blank">download the PDF</a>. 
+</div>
+
+<script src="{{ '/assets/js/pdf-viewer-resize.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/pdf-viewer-resize.css' | relative_url }}">
 
 <!-- ## External Link -->
 
