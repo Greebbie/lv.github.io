@@ -13,11 +13,13 @@ This research project introduces a groundbreaking approach to Video Question Ans
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe id="pdf-viewer" data-src="{{ page.pdf_path | relative_url }}" width="100%" height="60%">
-        </iframe>
+        <div id="pdf-container" style="width: 100%; height: 60vh; position: relative;">
+            <iframe id="pdf-viewer" data-src="{{ pdf_path | relative_url }}" style="width: 100%; height: 100%; border: 1px solid #ddd; border-radius: 4px;">
+            </iframe>
+            <div id="pdf-resizer" style="width: 100%; height: 10px; background-color: #f0f0f0; position: absolute; bottom: -5px; cursor: ns-resize;"></div>
+        </div>
     </div>
 </div>
-
 <div class="caption">
     View the full project documentation above or <a href="{{ page.pdf_path | relative_url }}" target="_blank">download the PDF</a>.
 </div>
