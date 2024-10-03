@@ -5,7 +5,7 @@ description: An approach to Video Question Answering that enhances Vision-Langua
 img: assets/img/vqa.png
 importance: 1
 category: Research
-pdf_path: /assets/pdf/VQA.pdf
+pdf_path: assets/pdf/VQA.pdf
 ---
 ## Project Overview
 
@@ -13,18 +13,16 @@ This research project introduces a groundbreaking approach to Video Question Ans
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div id="pdf-container" data-pdf-src="../assets/pdf/VQA.pdf">
+        <div id="pdf-container" data-pdf-src="{{pdf_path}}">
             <iframe id="pdf-viewer"></iframe>
         </div>
     </div>
 </div>
 
 <div class="caption">
-    <a href="../assets/pdf/VQA.pdf" target="_blank">Download the PDF</a>
+    <a href="./assets/pdf/VQA.pdf" target="_blank">Download the PDF</a>
 </div>
 
-<script src="../assets/js/pdfresize.js"></script>
-<link rel="stylesheet" href="../assets/css/pdfresize.css">
 
 
 <!-- ## External Link -->
