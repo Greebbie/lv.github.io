@@ -13,7 +13,7 @@ This research project introduces a groundbreaking approach to Video Question Ans
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe id="pdf-viewer" src="{{ page.pdf_path | relative_url }}" width="100%" height="500px">
+        <iframe id="pdf-viewer" data-src="{{ page.pdf_path | relative_url }}" width="100%" height="60%">
         </iframe>
     </div>
 </div>
