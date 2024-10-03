@@ -7,6 +7,8 @@ importance: 3
 category: Research
 pdf_path: /assets/pdf/loc.pdf
 ---
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css'}}">
+
 ## Project Overview
 
 LOCNet explores enhancing shape bias in CNNs by jointly optimizing depth estimation and classification tasks. Using a ResNet50-based encoder-decoder architecture trained on a novel ImageNet-derived dataset, our model outperforms classification-only models on out-of-distribution datasets, particularly in sketch and texture-based filters. This approach shows promise in bridging the gap between human and machine vision, improving robustness in image classification tasks.
@@ -24,7 +26,7 @@ LOCNet explores enhancing shape bias in CNNs by jointly optimizing depth estimat
 </div>
 
 <script src="{{ '/assets/js/pdfresize.js'}}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css'}}">
+
 <!-- ## External Link -->
 
 <!-- For more information, visit the [project webpage]({{ page.webpage_link }}). -->
