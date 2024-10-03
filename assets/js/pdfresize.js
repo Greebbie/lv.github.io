@@ -1,16 +1,26 @@
 // assets/js/pdf-viewer-resize.js
 
-document.addEventListener('DOMContentLoaded', function() {
+function loadPDF() {
     var container = document.getElementById('pdf-container');
     var iframe = document.getElementById('pdf-viewer');
-    var resizer = document.getElementById('pdf-resizer');
     
     if (container && iframe) {
         var pdfSrc = container.getAttribute('data-pdf-src');
         if (pdfSrc) {
+            console.log('Loading PDF from:', pdfSrc);
             iframe.src = pdfSrc;
+        } else {
+            console.error('PDF source not found');
         }
+    } else {
+        console.error('Container or iframe not found');
     }
+}
+
+function setupResizer() {
+    var container = document.getElementById('pdf-container');
+    var iframe = document.getElementById('pdf-viewer');
+    var resizer = document.getElementById('pdf-resizer');
 
     if (!resizer && iframe) {
         resizer = document.createElement('div');
@@ -42,4 +52,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         resizer.addEventListener('mousedown', initDrag, false);
     }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(loadPDF, 100); // 100ms delay for loading PDF
+    setupResizer();
 });
