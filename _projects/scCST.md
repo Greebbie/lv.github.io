@@ -20,7 +20,7 @@ Our research introduces scCST (single-cell Continuous Spatial-Temporal Transform
 </div>
 
 <div class="caption">
-    View the full project documentation above or <a href="{{ page.pdf_path | relative_url }}" target="_blank">download the PDF</a>.
+    View the full project documentation above or <a href="#" onclick="window.open(document.getElementById('pdf-container').getAttribute('data-pdf-src'), '_blank'); return false;">download the PDF</a>. 
 </div>
 
 <!-- ## External Link -->

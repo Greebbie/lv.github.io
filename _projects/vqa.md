@@ -2,7 +2,7 @@
 layout: page
 title: VQA
 description: An approach to Video Question Answering that enhances Vision-Language Models by utilizing multiple external vision models.
-img: assets/img/vqa.jpg
+img: assets/img/vqa.png
 importance: 1
 category: Research
 pdf_path: /assets/pdf/VQA.pdf
@@ -17,6 +17,10 @@ This research project introduces a groundbreaking approach to Video Question Ans
             <iframe id="pdf-viewer"></iframe>
         </div>
     </div>
+</div>
+
+<div class="caption">
+    View the full project documentation above or <a href="#" onclick="window.open(document.getElementById('pdf-container').getAttribute('data-pdf-src'), '_blank'); return false;">download the PDF</a>. 
 </div>
 
 <!-- ## External Link -->
