@@ -1,29 +1,31 @@
 document.addEventListener('DOMContentLoaded', function() {
     const iframe = document.getElementById('pdf-viewer');
+    const resizeHandle = document.createElement('div');
+    resizeHandle.className = 'resize-handle';
+    iframe.parentNode.insertBefore(resizeHandle, iframe.nextSibling);
+
     let isResizing = false;
-    let lastDownY = 0;
+    let lastY;
 
-    iframe.style.resize = 'vertical';
-    iframe.style.overflow = 'auto';
-
-    iframe.addEventListener('mousedown', function(e) {
-        // Check if the click is on the bottom edge (within 10px)
-        if (iframe.offsetHeight - e.clientY + iframe.offsetTop < 10) {
-            isResizing = true;
-            lastDownY = e.clientY;
-            e.preventDefault();
-        }
+    resizeHandle.addEventListener('mousedown', function(e) {
+        isResizing = true;
+        lastY = e.clientY;
+        document.addEventListener('mousemove', resize);
+        document.addEventListener('mouseup', stopResize);
+        e.preventDefault();
     });
 
-    document.addEventListener('mousemove', function(e) {
+    function resize(e) {
         if (!isResizing) return;
-        const delta = e.clientY - lastDownY;
+        const delta = e.clientY - lastY;
         const newHeight = iframe.offsetHeight + delta;
         iframe.style.height = newHeight + 'px';
-        lastDownY = e.clientY;
-    });
+        lastY = e.clientY;
+    }
 
-    document.addEventListener('mouseup', function() {
+    function stopResize() {
         isResizing = false;
-    });
+        document.removeEventListener('mousemove', resize);
+        document.removeEventListener('mouseup', stopResize);
+    }
 });
