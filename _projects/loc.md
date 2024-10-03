@@ -7,7 +7,7 @@ importance: 3
 category: Research
 pdf_path: /assets/pdf/loc.pdf
 ---
-<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css'}}">
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
 
 ## Project Overview
 
@@ -25,7 +25,7 @@ LOCNet explores enhancing shape bias in CNNs by jointly optimizing depth estimat
     <a href="{{ page.pdf_path | relative_url }}" target="_blank">Download the PDF</a>
 </div>
 
-<script src="{{ '/assets/js/pdfresize.js'}}"></script>
+<script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
 
 <!-- ## External Link -->
 
