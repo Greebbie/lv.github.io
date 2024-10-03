@@ -1,4 +1,4 @@
-// assets/js/pdf-viewer-resize.js
+// assets/js/pdfresize.js
 
 document.addEventListener('DOMContentLoaded', function() {
     var container = document.getElementById('pdf-container');
@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (container && iframe) {
         var pdfSrc = container.getAttribute('data-pdf-src');
         if (pdfSrc) {
+            // Use the relative path directly
             iframe.src = pdfSrc;
         }
         container.appendChild(resizer);
