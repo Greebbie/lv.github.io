@@ -23,8 +23,8 @@ This research project introduces a groundbreaking approach to Video Question Ans
     View the full project documentation above or <a href="{{ page.pdf_path | relative_url }}" target="_blank">download the PDF</a>. 
 </div>
 
-<script src="{{ '/assets/js/pdf-viewer-resize.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/pdf-viewer-resize.css' | relative_url }}">
+<script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
 
 <!-- ## External Link -->
 
