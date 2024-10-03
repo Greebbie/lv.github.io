@@ -1,31 +1,45 @@
+// assets/js/pdf-viewer-resize.js
+
 document.addEventListener('DOMContentLoaded', function() {
-    const iframe = document.getElementById('pdf-viewer');
-    const resizeHandle = document.createElement('div');
-    resizeHandle.className = 'resize-handle';
-    iframe.parentNode.insertBefore(resizeHandle, iframe.nextSibling);
-
-    let isResizing = false;
-    let lastY;
-
-    resizeHandle.addEventListener('mousedown', function(e) {
-        isResizing = true;
-        lastY = e.clientY;
-        document.addEventListener('mousemove', resize);
-        document.addEventListener('mouseup', stopResize);
-        e.preventDefault();
-    });
-
-    function resize(e) {
-        if (!isResizing) return;
-        const delta = e.clientY - lastY;
-        const newHeight = iframe.offsetHeight + delta;
-        iframe.style.height = newHeight + 'px';
-        lastY = e.clientY;
+    var container = document.getElementById('pdf-container');
+    var iframe = document.getElementById('pdf-viewer');
+    var resizer = document.getElementById('pdf-resizer');
+    
+    if (container && iframe) {
+        var pdfSrc = container.getAttribute('data-pdf-src');
+        if (pdfSrc) {
+            iframe.src = pdfSrc;
+        }
     }
 
-    function stopResize() {
-        isResizing = false;
-        document.removeEventListener('mousemove', resize);
-        document.removeEventListener('mouseup', stopResize);
+    if (!resizer && iframe) {
+        resizer = document.createElement('div');
+        resizer.id = 'pdf-resizer';
+        resizer.className = 'resize-handle';
+        iframe.parentNode.insertBefore(resizer, iframe.nextSibling);
+    }
+
+    if (resizer && container) {
+        var startY, startHeight;
+
+        function initDrag(e) {
+            startY = e.clientY;
+            startHeight = parseInt(document.defaultView.getComputedStyle(container).height, 10);
+            document.documentElement.addEventListener('mousemove', doDrag, false);
+            document.documentElement.addEventListener('mouseup', stopDrag, false);
+        }
+
+        function doDrag(e) {
+            var newHeight = (startHeight + e.clientY - startY) / window.innerHeight * 100;
+            newHeight = Math.max(20, Math.min(newHeight, 90)); // Limit between 20% and 90%
+            container.style.height = newHeight + 'vh';
+        }
+
+        function stopDrag(e) {
+            document.documentElement.removeEventListener('mousemove', doDrag, false);
+            document.documentElement.removeEventListener('mouseup', stopDrag, false);
+        }
+
+        resizer.addEventListener('mousedown', initDrag, false);
     }
 });

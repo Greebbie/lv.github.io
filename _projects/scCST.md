@@ -13,10 +13,8 @@ Our research introduces scCST (single-cell Continuous Spatial-Temporal Transform
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div id="pdf-container" style="width: 100%; height: 60vh; position: relative;">
-            <iframe id="pdf-viewer" data-src="{{ page.pdf_path | relative_url }}" style="width: 100%; height: 100%; border: 1px solid #ddd; border-radius: 4px;">
-            </iframe>
-            <div id="pdf-resizer" style="width: 100%; height: 10px; background-color: #f0f0f0; position: absolute; bottom: -5px; cursor: ns-resize;"></div>
+        <div id="pdf-container" data-pdf-src="{{ page.pdf_path | relative_url }}">
+            <iframe id="pdf-viewer"></iframe>
         </div>
     </div>
 </div>
