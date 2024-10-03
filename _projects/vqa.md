@@ -19,9 +19,9 @@ This research project introduces a groundbreaking approach to Video Question Ans
     </div>
 </div>
 
-<div class="caption">
+<!-- <div class="caption">
     View the full project documentation above or <a href="#" onclick="window.open(document.getElementById('pdf-container').getAttribute('data-pdf-src'), '_blank'); return false;">download the PDF</a>. 
-</div>
+</div> -->
 
 <!-- ## External Link -->
 
