@@ -11,14 +11,20 @@ pdf_path: /assets/pdf/VQA.pdf
 
 This research project introduces a groundbreaking approach to Video Question Answering (VideoQA), addressing the limitations of traditional latent video representations. Our novel method leverages multiple external vision models to transform video content into detailed natural language descriptions, significantly enhancing the capabilities of Vision-Language Models
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <iframe src="{{ page.pdf_path | relative_url }}" width="100%" height="500px">
-        </iframe>
+        <div class="pdf-container">
+            <iframe id="pdf-viewer" src="{{ page.pdf_path | relative_url }}" width="100%" height="500px">
+            </iframe>
+            <div class="resize-handle"></div>
+        </div>
     </div>
 </div>
 
 <div class="caption">
     View the full project documentation above or <a href="{{ page.pdf_path | relative_url }}" target="_blank">download the PDF</a>.
 </div>
+
+## External Link
+
+## For more information, visit the [project webpage]({{ page.webpage_link }}).
