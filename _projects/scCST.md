@@ -13,7 +13,7 @@ Our research introduces scCST (single-cell Continuous Spatial-Temporal Transform
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        <div id="pdf-container" data-pdf-src="../assets/pdf/scCST.pdf">
+        <div id="pdf-container" data-pdf-src="{{ page.pdf_path | relative_url }}">
             <iframe id="pdf-viewer"></iframe>
         </div>
     </div>
@@ -23,8 +23,8 @@ Our research introduces scCST (single-cell Continuous Spatial-Temporal Transform
     <a href="../assets/pdf/scCST.pdf" target="_blank">Download the PDF</a>
 </div>
 
-<script src="../assets/js/pdfresize.js"></script>
-<link rel="stylesheet" href="../assets/css/pdfresize.css">
+<script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
 
 <!-- ## External Link -->
 

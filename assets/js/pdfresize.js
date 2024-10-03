@@ -1,19 +1,22 @@
-// assets/js/pdfresize.js
+// assets/js/pdf-viewer-resize.js
 
 document.addEventListener('DOMContentLoaded', function() {
     var container = document.getElementById('pdf-container');
     var iframe = document.getElementById('pdf-viewer');
-    var resizer = document.createElement('div');
-    resizer.id = 'pdf-resizer';
-    resizer.className = 'resize-handle';
+    var resizer = document.getElementById('pdf-resizer');
     
     if (container && iframe) {
         var pdfSrc = container.getAttribute('data-pdf-src');
         if (pdfSrc) {
-            // Use the relative path directly
             iframe.src = pdfSrc;
         }
-        container.appendChild(resizer);
+    }
+
+    if (!resizer && iframe) {
+        resizer = document.createElement('div');
+        resizer.id = 'pdf-resizer';
+        resizer.className = 'resize-handle';
+        iframe.parentNode.insertBefore(resizer, iframe.nextSibling);
     }
 
     if (resizer && container) {
