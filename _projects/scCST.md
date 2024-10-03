@@ -20,11 +20,11 @@ Our research introduces scCST (single-cell Continuous Spatial-Temporal Transform
 </div>
 
 <div class="caption">
-    <a href="../assets/pdf/scCST.pdf" target="_blank">Download the PDF</a>
+    <a href="{{ page.pdf_path | relative_url }}" target="_blank">Download the PDF</a>
 </div>
 
-<script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
+<!-- <script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}"> -->
 
 <!-- ## External Link -->
 

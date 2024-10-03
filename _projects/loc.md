@@ -20,7 +20,7 @@ LOCNet explores enhancing shape bias in CNNs by jointly optimizing depth estimat
 </div>
 
 <div class="caption">
-    View the full project documentation above or <a href="{{ page.pdf_path }}" target="_blank">download the PDF</a>. 
+    <a href="{{ page.pdf_path | relative_url }}" target="_blank">Download the PDF</a>
 </div>
 
 <script src="{{ '/assets/js/pdfresize.js'}}"></script>

@@ -18,10 +18,12 @@ This research project introduces a groundbreaking approach to Video Question Ans
         </div>
     </div>
 </div>
+<div class="caption">
+    <a href="{{ page.pdf_path | relative_url }}" target="_blank">Download the PDF</a>
+</div>
 
-
-<script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
-<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
+<!-- <script src="{{ '/assets/js/pdfresize.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}"> -->
 
 
 
