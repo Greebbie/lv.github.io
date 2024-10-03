@@ -2,14 +2,14 @@
 layout: page
 title: VQA
 description: video question answering with llm
-img: assets/img/1.jpg
+img: assets/img/vqa.jpg
 importance: 1
 category: Research
+pdf_path: /assets/pdf/VQA.pdf
 ---
 ## Project Overview
 
-Provide a brief overview of your project here. This section can include the project's goals, key features, or any other high-level information.
-
+This research project introduces a groundbreaking approach to Video Question Answering (VideoQA), addressing the limitations of traditional latent video representations. Our novel method leverages multiple external vision models to transform video content into detailed natural language descriptions, significantly enhancing the capabilities of Vision-Language Models
 
 
 <div class="row mt-3">
