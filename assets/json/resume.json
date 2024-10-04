@@ -75,7 +75,7 @@
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": ["C", "C++", "C#", "Java", "SQL", "Python"]
+      "keywords": ["C", "C++", "C#", "Java", "Python"]
     },
     {
       "name": "Game Engines",
@@ -83,7 +83,7 @@
     },
     {
       "name": "Research Areas",
-      "keywords": ["Deep Learning", "Biomedical Engineering"]
+      "keywords": ["Deep Learning", "Biomedical Engineering", "Neuroscience"]
     }
   ],
   "languages": [
@@ -92,9 +92,6 @@
   "interests": [],
   "references": [],
   "projects": [
-    {
-      "name": "Research and Development Projects",
-      "description": "A list of research and development projects available on personal webpage."
-    }
+
   ]
 }
