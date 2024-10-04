@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Demolition express
+title: Demolition Express
 description: A indie game project
 img: assets/img/de.png
 redirect: https://meyerti3.itch.io/demolition-express
