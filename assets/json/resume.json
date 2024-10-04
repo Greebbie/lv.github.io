@@ -56,7 +56,8 @@
       "score": "",
       "courses": [
         "Artificial Intelligence",
-        "Machine Learning"
+        "Machine Learning",
+        "Deep Learning"
       ]
     },
     {
@@ -68,7 +69,9 @@
       "endDate": "2023-05",
       "score": "Graduated with High Honor",
       "courses": [
-        "Game Design and Development"
+        "Software Development",
+        "Game Design and Development",
+        "Machine Learning"
       ]
     }
   ],
