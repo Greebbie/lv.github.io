@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Experience
+title: experience
 nav: true
 nav_order: 1
 cv_pdf: resume.pdf
