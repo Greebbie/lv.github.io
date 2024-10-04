@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://midoriqaq.github.io/sitemap.xml
+Sitemap: https://midoriqaq.github.io//sitemap.xml
