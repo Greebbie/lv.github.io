@@ -3,7 +3,7 @@ layout: page
 title: scCST
 description:  A Continuous Spatial-Temporal Transformer for interpolating cellular trajectories between sampled time points in single-cell sequencing data.
 img: assets/img/scCST.png
-importance: 2
+importance: 3
 category: Research
 pdf_path: /assets/pdf/scCST.pdf
 ---
