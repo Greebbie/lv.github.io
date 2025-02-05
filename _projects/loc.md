@@ -3,7 +3,7 @@ layout: page
 title: Enhancing Shape Bias in CNNs
 description: Combining depth density estimation with image classification to enhance shape bias in CNNs.
 img: assets/img/loc.png
-importance: 3
+importance: 4
 category: Research
 pdf_path: /assets/pdf/loc.pdf
 ---
