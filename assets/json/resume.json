@@ -17,7 +17,7 @@
     {
       "name": "Lee Lab",
       "url": "https://sites.brown.edu/lee/",
-      "position": "Graduate Researcher",
+      "position": "Research Assistant",
       "startDate": "2024-09",
       "endDate": "Present",
       "summary": "Conducting research on Brain-Computer Interface (BCI) project integrated with VR gaming. Developing and integrating deep learning models with Unreal Engine for real-time BCI data processing and VR interaction."
@@ -25,21 +25,21 @@
     {
       "name": "Human Augmentation and Artificial Intelligence Laboratory (HAAIL)",
       "url": "https://labs.ghassemi.xyz/",
-      "position": "Undergraduate Researcher",
+      "position": "Research Assistant",
       "startDate": "2022-05",
       "endDate": "2023-08",
       "summary": "Research on Feature Imitating Networks in biomedical image processing."
     },
     {
       "name": "Henry Ford Health System",
-      "position": "Undergraduate Researcher",
+      "position": "Research Assistant",
       "startDate": "2022-09",
       "endDate": "2023-07",
       "summary": "Contributed to a pilot grant program funded between Henry Ford Health System and MSU. Research on radiomics features with machine learning."
     },
     {
       "name": "Game Development Studio",
-      "position": "Programming Developer",
+      "position": "Game Developer",
       "startDate": "2021-09",
       "endDate": "2023-05",
       "summary": "Developed indie games, focus on technical side of games. Mentored by professionals from Iron Galaxy Studio."
@@ -56,8 +56,7 @@
       "score": "",
       "courses": [
         "Artificial Intelligence",
-        "Machine Learning",
-        "Deep Learning"
+        "Machine Learning"
       ]
     },
     {
