@@ -17,7 +17,7 @@ profile:
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I'm a recent Master's graduate in Computer Science from Brown University, where I specialized in `Artificial Intelligence/ Machine Learning`.
+I'm a recent Master's graduate in Computer Science from Brown University, where I specialized in `Artificial Intelligence/Machine Learning`.
 
 Before that, I earned my B.S. in Computer Science from Michigan State University, where I developed my skills in deep learning and game development.
 
