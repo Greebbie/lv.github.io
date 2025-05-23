@@ -3,7 +3,7 @@ layout: page
 title: ML Logbook
 description: A collection of practical ML concepts, recent models, code examples and questions for interview.
 img: assets/img/mllogbook.png
-category: Professional
+category: Profession
 # You can add a 'redirect' if clicking the project card should go directly to the site
 redirect: https://www.mllogbook.com/
 # Or, if you want a project page on your site that then links out, you can add the link in the body
