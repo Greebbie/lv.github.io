@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Shangyang Min",
-    "label": "Computer Scientist",
+    "field": "Computer Science",
     "image": "",
     "email": "shangyang_min@brown.edu",
     "phone": "(419) 233-0178",
@@ -19,7 +19,7 @@
       "url": "https://sites.brown.edu/lee/",
       "position": "Research Assistant",
       "startDate": "2024-09",
-      "endDate": "Present",
+      "endDate": "2025-05",
       "summary": "Conducting research on Brain-Computer Interface (BCI) project integrated with VR gaming. Developing and integrating deep learning models with Unreal Engine for real-time BCI data processing and VR interaction."
     },
     {
@@ -68,8 +68,8 @@
       "endDate": "2023-05",
       "score": "Graduated with High Honor",
       "courses": [
-        "Software Development",
-        "Game Design and Development",
+        "Software/Game Development",
+        "Biomedical Engineering",
         "Machine Learning"
       ]
     }
