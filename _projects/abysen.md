@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abysen AI
-description: I am the founder of Abysen AI, an AI research & solutions company that bridges cutting-edge academic breakthroughs with industrial applications.
+description: I am the founder of Abysen AI, an AI research & solutions company.
 img: assets/img/abysen.png
 category: Profession
 # You can add a 'redirect' if clicking the project card should go directly to the site
