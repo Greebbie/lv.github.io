@@ -7,7 +7,6 @@ importance: 6
 category: Research
 pdf_path: /assets/pdf/music.pdf
 ---
-
 <link rel="stylesheet" href="{{ '/assets/css/pdfresize.css' | relative_url }}">
 
 ## Project Overview
