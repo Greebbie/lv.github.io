@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Musicologist: Charting Music Space with Interpretable Diffusion Trajectories
+title: Musicologist
 description: A framework for interpreting diffusion-based music generators by analyzing concept emergence across trajectories.
 img: assets/img/music.png
 importance: 7
