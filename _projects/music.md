@@ -3,7 +3,7 @@ layout: page
 title: Musicologist
 description: A framework for interpreting diffusion-based music generators by analyzing concept emergence across trajectories.
 img: assets/img/music.png
-importance: 7
+importance: 6
 category: Research
 pdf_path: /assets/pdf/music.pdf
 ---
