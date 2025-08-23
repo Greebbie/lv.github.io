@@ -3,7 +3,7 @@ layout: page
 title: Semantic Enhanced Point-E
 description: Enhancing 3D model generation with multimodal fusion of image and text embeddings.
 img: assets/img/sepe.png
-importance: 7
+importance: 8
 category: Research
 pdf_path: /assets/pdf/sepe.pdf
 ---
