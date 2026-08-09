@@ -21,4 +21,4 @@ I'm Shangyang Min. I work in AI research and engineering, and I founded Abysen A
 
 I received my Master's degree in Computer Science from Brown University, with a focus on Artificial Intelligence and Machine Learning. Before that, I earned my B.S. in Computer Science from Michigan State University.
 
-Outside of work, I enjoy snowboarding, games, food, and photography. I'm also a content creator on Douyin.
+Outside of work, I enjoy snowboarding, games, food, and photography. I'm also a content creator on Douyin, where I make videos about machine learning and human emotions. The account reached 10K followers within its first two months.

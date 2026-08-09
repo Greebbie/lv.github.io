@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Collection of projects I have done.
+description: Selected work across AI products, research, engineering, and creative ML.
 nav: true
 nav_order: 2
 display_categories: [Profession,Research, Dev]
