@@ -17,8 +17,8 @@ profile:
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I'm Shangyang Min (闵尚扬). 'I'm a recent Master's graduate in Computer Science from Brown University, where I specialized in `Artificial Intelligence/Machine Learning`.
+I'm Shangyang Min. I work in AI research and engineering, and I founded Abysen AI, where we build practical AI products and systems.
 
-Before that, I earned my B.S. in Computer Science from Michigan State University, where I developed my skills in deep learning and game development.
+I received my Master's degree in Computer Science from Brown University, with a focus on Artificial Intelligence and Machine Learning. Before that, I earned my B.S. in Computer Science from Michigan State University.
 
-Outside of academics, I enjoy snowboarding, games, food, and photography.
+Outside of work, I enjoy snowboarding, games, food, and photography. I'm also a content creator on Douyin.
