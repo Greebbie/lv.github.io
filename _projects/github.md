@@ -8,6 +8,6 @@ redirect: https://github.com/Greebbie
 importance: 2
 ---
 
-My public repositories include work across AI research, engineering, products, and educational projects.
+My public repositories include work across research, engineering, and products projects.
 
 [Explore my work on GitHub.](https://github.com/Greebbie)
