@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .mark {
+      fill: #111111;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mark {
+        fill: #f4f4f4;
+      }
+    }
+  </style>
+  <path class="mark" d="M8 52V12h10l14 20 14-20h10v40H46V29L32 47 18 29v23z"/>
+  <path fill="#00ab37" d="M46 12h10v10H46z"/>
+</svg>
